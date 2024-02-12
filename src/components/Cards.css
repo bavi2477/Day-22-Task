@@ -1,0 +1,22 @@
+.container-fluid {
+    min-height: 100vh;    
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform .2s; 
+}
+
+.card .btn {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.card:hover .btn {
+    background-color: blue; 
+    cursor: pointer;
+}
+
+
+
+
